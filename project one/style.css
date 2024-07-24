@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color:white;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    display: flex;
+    margin:27px 135px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 109px;
+    
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-weight: 600;
+}
+.search{
+    display: flex;
+}
+.search img{
+    margin-right: 33px;
+    object-fit: contain;
+}
+.iservice-button{
+background-color: #ED017F;
+color:white;
+padding: 8px 20px;
+border-radius: 8px;
+border-style: none;
+cursor: pointer;
+
+}
