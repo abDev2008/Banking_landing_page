@@ -5,10 +5,11 @@
 body{
     background-color:white;
     font-family: "Poppins", sans-serif;
+    margin:27px 135px;
 }
 .header{
     display: flex;
-    margin:27px 135px;
+    
     align-items: center;
     justify-content: space-between;
     
