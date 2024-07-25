@@ -1,6 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
 }
 
 body {
@@ -8,6 +13,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 27px 135px;
     max-width: 1440px;
+    margin: auto;
 }
 
 button {
@@ -267,4 +273,109 @@ article p {
     text-align: left;
     color: #363940;
     font-weight: 600;
+}
+
+.result-info h3 {
+    font-size: 40px;
+}
+
+.special-header {
+    color: #ED017F;
+}
+
+.result-info p {
+    /* font-size: 16px;
+    font-weight: 400; */
+    /* text-transform: uppercase; */
+
+}
+
+
+
+
+.last {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.last img {
+    width: 24px;
+    object-fit: contain;
+}
+
+.footer {
+    margin: 70px 0px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    gap: 40px
+}
+
+.footer-card {
+    max-width: 220px;
+}
+
+.footer-card ul li {
+    margin-bottom: 10px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-card p {
+
+    padding-bottom: 20px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.flower-image img {
+
+    width: 24px;
+    object-fit: contain;
+}
+
+.subscribe {
+    padding: 100px 0 116px 0;
+    background-color: #FEF9FC;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt-input {
+    padding-bottom: 20px;
+    margin-top: 34px;
+}
+
+.subscribe p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #999999;
+
+}
+
+.input-email {
+    width: 380px;
+    color: #999999;
+    padding: 15px 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+
+.sub-btn {}
+
+.news-heading {
+    color: #343434;
+    text-align: center;
+
 }
