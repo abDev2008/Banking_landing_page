@@ -164,7 +164,7 @@ article p {
 .partners {
     padding: 78px 0 69px 0;
     background-color: #FCE0EF33;
-    border: 1px solid red;
+
     margin: auto;
     max-width: 1440px;
 }
@@ -202,4 +202,69 @@ article p {
     background-color: #ED017F;
     width: 13px;
     height: 13px;
+}
+
+.IPDC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.flower-image {
+    width: 618px;
+}
+
+.content p {
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 10px;
+}
+
+.read-more {
+    color: #ED017F;
+    display: flex;
+    margin-top: 30px;
+}
+
+.our-services {
+    background-color: #FEF9FC;
+    padding: 106px 0 130px 0;
+}
+
+.image-wrapper {
+    padding: 64px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services-header {
+    text-align: center;
+    font-size: 36px;
+}
+
+.our-services p {
+    color: #999999;
+    text-align: center;
+}
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    margin-top: 22px;
+    font-weight: 600px;
+}
+
+.arrow-wrapper img {
+    object-fit: contain;
+}
+
+.arrow-wrapper p {
+    text-align: left;
+    color: #363940;
+    font-weight: 600;
 }
