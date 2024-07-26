@@ -44,6 +44,7 @@ article h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -57,15 +58,20 @@ article h2 {
     list-style: none;
     gap: 30px;
     font-weight: 600;
+    flex-wrap: wrap;
 }
 
 .search {
     display: flex;
+
+    position: relative;
 }
 
 .search img {
     margin-right: 33px;
     object-fit: contain;
+    z-index: 100 !important;
+    position: absolute;
 }
 
 .special-button {
@@ -157,10 +163,18 @@ article p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding-top: 76px;
+
+
 }
 
 .card {
     padding: 24px 75px 24px 24px;
+
+    max-width: 300px;
+    border-radius: 10px;
+
+
+
 }
 
 .card img {
@@ -179,6 +193,9 @@ article p {
     display: flex;
     justify-content: space-around;
     padding: 88px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+
 }
 
 .partners h3 {
@@ -220,7 +237,7 @@ article p {
 }
 
 .flower-image {
-    width: 618px;
+    /* width: 618px; */
 }
 
 .content p {
@@ -245,6 +262,8 @@ article p {
     padding: 64px 0 0 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .our-services-header {
@@ -309,11 +328,12 @@ article p {
     display: flex;
     font-size: 14px;
     justify-content: space-between;
-    gap: 40px
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .footer-card {
-    max-width: 220px;
+    max-width: 300px;
 }
 
 .footer-card ul li {
@@ -338,7 +358,6 @@ article p {
 
 .flower-image img {
 
-    width: 24px;
     object-fit: contain;
 }
 
@@ -378,4 +397,61 @@ article p {
     color: #343434;
     text-align: center;
 
+}
+
+@media (max-width: 1000px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grids {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .IPDC {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grids {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+    }
+
+    .IPDC {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        justify-content: center;
+
+    }
+
+    .image-wrapper:first-child {
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        margin-bottom: 20px;
+    }
+
+    body {
+        margin: 0px 30px;
+    }
 }
